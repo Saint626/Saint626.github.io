@@ -8,6 +8,7 @@ keywords: 软件
 description: 推荐一下windows中一些比较好用的软件
 top_img: http://picture.saintblog.top/windows/windows_store.jpg
 cover: http://picture.saintblog.top/windows/windows_store.jpg
+comment: true
 ---
 
 ## 1. 杀毒
@@ -238,7 +239,35 @@ QQ 影音算是现在为数不多的支持格式多、界面简洁、无广告�
 
 ![本地搜索](http://picture.saintblog.top/windows/utools_search.png)
 
+### 3. EarTrumpet
 
+在 Windows 10 上有一个几乎每个人都会遇到的切身之痛，那就是调整每个应用程序、软件的音量不是那么方便，举例来说，如果你正在用较大的音量看电影，忽然有人发 微信信息进来，那个突如其来的大音量通知， 真的会把人吓一跳。今天要介绍的这款第三方工具 EarTrumpet 能够让你独立调整每个应用的音量，超级方便的！想到这里是不是想到了网课摸鱼的神器了🤣
+
+![ear_store](http://picture.saintblog.top/windows/eartrumpet.png)
+
+虽然在 Windows 10 系统中的确存在可以独立调整各软件音量的功能，但其所在路径有点多层，你必须在屏幕右下角的音量图标上点鼠标右键，然后从音量合成器中来进行，有没有办法能够像手机一样直接调整媒体与手机通知的音量那般直觉呢？EarTrumpet 这款第三方工具在官方的 Microsoft Store 中就可以下载得到，目前试下来能够完美解决上述的问题。
+
+![eartrumpet](http://picture.saintblog.top/windows/eartrumpet_use.png)
+
+提醒一下，摸鱼需谨慎，最好别把音量全部关了，免得老师提问当旷课😂
+
+### 4. 截图
+
+说到截图软件，你是不是还在使用QQ截图甚至快捷键ctrl+alt+a？？日常使用QQ截图是没什么毛病，但是和snipaste比起来确实小巫见大巫，并且很多同学并不喜欢打开电脑就启动QQ，这个时候snipaste就将是你的最佳选择。
+
+[**Snipaste** ](https://zh.snipaste.com/)是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！下载并打开 Snipaste，按下 `F1` 来开始截图，再按 `F3`，截图就在桌面置顶显示了。就这么简单！
+
+你还可以将剪贴板里的文字或者颜色信息转化为图片窗口，并且将它们进行缩放、旋转、翻转、设为半透明，甚至让鼠标能穿透它们！如果你是程序员、设计师，或者是大部分工作时间都在电脑前，贴图功能将改变你的工作方式、提升工作效率。
+
+Snipaste 使用很简单，但同时也有一些较高级的用法可以进一步提升你的工作效率。感兴趣的话，请抽空读一读[用户手册](https://docs.snipaste.com/#/zh-cn/)。
+
+Snipaste 是免费软件，它也很安全，没有广告、不会扫描你的硬盘、更不会上传用户数据，它只做它应该做的事。
+
+sniptaste可以现在拥有win版、mac版、uwp版，我现在用的是uwp版，和普通的版本没差别。
+
+![sniptaste](http://picture.saintblog.top/windows/snipaste.png)
+
+并且我把win10的快捷截图按键启动修改成了snipaste的截图快捷键。
 
 ## 8. 电脑优化
 

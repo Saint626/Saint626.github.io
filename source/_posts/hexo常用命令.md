@@ -9,6 +9,7 @@ keywords: hexo
 description: 经常忘记hexo的命令在这里总结一下
 top_img: http://picture.saintblog.top/hexo/hexo.jpg
 cover: http://picture.saintblog.top/hexo/hexo.jpg 
+comment: true
 ---
 
 
