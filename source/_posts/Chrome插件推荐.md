@@ -32,7 +32,7 @@ comment: true
 
 ![ghelper](http://picture.saintblog.top/chrome/GHelper.png)
 
-然后根据上面的图打开扩展程序，将下载的文件托进去，然后可以看到右上角出现谷歌访问助手的图表，点击就会跳转需要登录注册的一个网页，用可以用的邮箱注册一个就可以用了。这样是已经成功登录并已经打开的状态了
+然后根据上面的图**打开扩展程序页面，将下载的文件拖进chrome**，然后可以看到右上角出现谷歌访问助手的图表，点击就会跳转需要登录注册的一个网页，用可以用的邮箱注册一个就可以用了。这样是已经成功登录并已经打开的状态了
 
 ![GHelper_on](http://picture.saintblog.top/chrome/GHelper_on.png)
 
@@ -44,7 +44,7 @@ comment: true
 
 ## 扩展程序推荐
 
-## 1. Tampermonkey
+### 1. Tampermonkey
 
 知名的油猴管理器。记得当初看着这么一句话，用了chrome不用油猴，建议去用IE6。好像确实是这么一回事。为什么把tampermonkey放第一个推荐呢？？那是因为如果让我选择chrome上只安装一个扩展，那肯定是油猴，油猴可以另外再安装许多网站的js脚本，来解除网站的规定所带来的各种限制。
 
@@ -65,3 +65,43 @@ comment: true
 在tempermonkey的安装界面，选择继续安装或取消，下面则是脚本的代码
 
 ![tempermonkey_install](http://picture.saintblog.top/chrome/tempermonkey_install.png)
+
+油猴的脚本推荐建议看知乎的这个话题：[有哪些超神的油猴脚本？](https://www.zhihu.com/question/22210090)
+
+### 2. 扩展管理器（Extension Manager）
+
+一键管理所有扩展，快速开启/禁用、批量闪电管理，智能排序，右键卸载、锁定、选项配置，角标提醒，大小布局随心配。快捷、简单、安全。
+
+![Extension Manager](http://picture.saintblog.top/chrome/chrome_extensionmanager.png)
+
+把必要的主动性的插件放在chrome上方便操作，把被动性的插件放到扩展管理器中，避免chrome上一堆插件看的很不舒服
+
+![Extension Manager](http://picture.saintblog.top/chrome/extensionmanager.png)
+
+### 3. Adblock 
+
+广告拦截器，当然也可以选择使用tempermonkey中安装广告拦截器，不过我jio得这个功能更加强大
+
+![Extension Manager](http://picture.saintblog.top/chrome/chrome_adblock.png)
+
+> ```
+> 请注意：当安装 Adblock Plus for Chrome 时，您的浏览器会显示一个警告，它说 Adblock Plus for Chrome 会访问您的浏览历史和数据。这是一个标准的消息，我们从不、绝不会收集任何信息！
+> 
+> 最近，Adblock Plus 社区提出了可接受广告概念。通过允许一些小的和静态的广告，您可以支持那些依赖于广告，但选择一些非侵入式广告的网站。此功能可以在任何时候禁用，到 http://adblockplus.org/zh_CN/acceptable-ads 可以了解更多细节。
+> ```
+
+另外还可以添加某个网站到Adblock的白名单中，`知乎`就会提示最好添加到白名单中
+
+![Extension Manager](http://picture.saintblog.top/chrome/adblock_zhihu.png)
+
+### 4. Imagus
+
+也可以说是一款非常好用的插件了，把鼠标放到图片上会自动放大。
+
+![Extension Manager](http://picture.saintblog.top/chrome/imagui.gif)
+
+### 5. 沙拉查词
+
+一款单词查询的插件，双击某个单词就会出现一个沙拉查词的小图标，点击即可翻译
+
+![Extension Manager](http://picture.saintblog.top/chrome/shalachaci.gif)
