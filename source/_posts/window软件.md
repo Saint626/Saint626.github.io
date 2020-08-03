@@ -21,6 +21,8 @@ windows杀毒只推荐**[火绒安全](https://www.huorong.cn/ )**
 
 火绒不像其他的同类软件一样流氓，安装了一个杀毒软件就会带一套全家的软件，然后时不时给你提醒杀毒、勋章甚至广告，而且还不会禁止广告弹出，选择了禁止弹出下次又换一个广告弹出。
 
+![](http://picture.saintblog.top/biaoqing/1590333150146.jpeg)
+
 比较喜欢火绒的功能就是
 
 1. **弹窗拦截**，就是广告拦截
@@ -65,9 +67,13 @@ windows的新版浏览器，启动快，但扩展少，省电省内存
 
 ## 3. 压缩 / 解压软件
 
-压缩、解压软件用过好多，2345好压、360压缩等等，都或多或少带一些广告，时不时弹出来很影响心情。
+压缩、解压软件用过好多，2345好压、360压缩等等。然后就会像这样
 
-![广告](http://picture.saintblog.top/windows/yasuo_adv.png)
+<img src="http://picture.saintblog.top/windows/yasuo_adv.png" alt="广告" style="zoom:50%;" />
+
+都或多或少带一些广告，时不时弹出来很影响心情。
+
+![](http://picture.saintblog.top/biaoqing/mmexport1585713433017.gif)
 
 后来机缘巧合看到一款神器：**bandizip**    [下载地址](http://www.bandisoft.com/)
 
@@ -267,9 +273,45 @@ sniptaste可以现在拥有win版、mac版、uwp版，我现在用的是uwp版�
 
 ![sniptaste](http://picture.saintblog.top/windows/snipaste.png)
 
-并且我把win10的快捷截图按键启动修改成了snipaste的截图快捷键。
+因为win10自带了截图，但是又想要用Snipaste，可以使用snipaste的快捷键截图，也可以把win10截图关闭，将win10截图启动的快捷键改成snipaste截图。
+
+1. `win+i`打开设置，搜索框输入`prtscn`，出现如下选项，这个就是我们要休要的设置了，点击这个选项
+
+   ![](http://picture.saintblog.top/windows/snipaste_update1.png)
+
+2. 在右侧的多个设置中找到这个设置，如果是开启状态就关闭，如果是关闭状态就先开了再关闭，确保是关闭状态
+
+   ![](http://picture.saintblog.top/windows/snipaste_update2.png)
+
+3. 在任务栏找到snipaste的图标，打开snipaste设置
+
+   ![](http://picture.saintblog.top/windows/snipaste_update3.png)
+
+4. 选择控制，修改第一个截屏的快捷键，点点击×删除原来快捷键，再点击输入框，敲下你要修改的键，比如要修改为`Alt+J`就直接敲`Alt+J`
+
+   ![](http://picture.saintblog.top/windows/snipaste_update4.png)
+
+### 5. TranslucentTB
+
+既然提到了微软应用商店，那就顺带提一下这个软件吧。
+
+![translucentTB](http://picture.saintblog.top/windows/translucentTB.png)
+
+这是一款可以让任务栏透明或者半透明的软件。如果你看着windows的大黑边或者大白边的任务栏很不顺眼的话可以试试这款软件。
+
+桌面模式下任务栏全透明
+
+![trans_normal](http://picture.saintblog.top/windows/trans_normal.png)
+
+应用最大化情况下，任务栏是半透明的
+
+![trans_normal](http://picture.saintblog.top/windows/trans_orther.png)
 
 ## 8. 电脑优化
+
+经常看到好多人都是在桌面放着一堆东西，每次拿来让我弄电脑的时候看到我都头大，如果你的电脑系统盘内存不是很大的话是**不推荐的**，所以这里来介绍一下如何把电脑的桌面、文档、下载等文件夹放到其他盘去。
+
+![](http://picture.saintblog.top/biaoqing/1590681704851.jpeg)
 
 ### 1. 修改桌面、下载等位置
 
@@ -300,7 +342,11 @@ Dism++ 是一款 Windows 系统管理优化工具，它解决了我们安装、�
 
 ### 3. IObit Uninstall
 
-彻底卸载软件并且扫描残留的软件。支持浏览器插件、Metro应用。也可以用它卸载系统自带不能卸载的Metro应用。
+上面说了不要用360全家桶、腾讯管家，那我要卸载软件怎么办？？
+
+<img src="http://picture.saintblog.top/biaoqing/1576483941578.jpeg" style="zoom:50%;" />
+
+所以就有了这一款彻底卸载软件并且扫描残留的软件。支持浏览器插件、Metro应用。也可以用它卸载系统自带不能卸载的Metro应用。
 
 [官网地址](https://www.iobit.com/en/advanceduninstaller.php)
 
@@ -352,7 +398,7 @@ Typora 会自动隐藏 Markdown 标记，只留下**「所见即所得」**的�
 链接：https://pan.baidu.com/s/1jjT-Z2_FMo3sbP2BCOFpcw 
 提取码：sh50
 
-## 录屏
+## 10. 录屏
 
 之前使用的一直是Ocam，但是会强制更新，然后有很严重的广告，于是含泪卸载了。后面找到一个不错的录屏。
 
@@ -369,3 +415,4 @@ Typora 会自动隐藏 Markdown 标记，只留下**「所见即所得」**的�
 实训时候看到老师用的这个录屏，感觉还不错，所以也推荐一下。
 
 一款非常强大的免费开源无广告国外开发的软件(录屏只是其功能之一, 并且对于某些高端玩家**既要录制屏幕又要录制摄像头选择这款**), [Github开源地址戳这里](https://link.zhihu.com/?target=https%3A//github.com/obsproject/obs-studio). [官方下载地址戳这里](https://link.zhihu.com/?target=https%3A//obsproject.com/download)。 这款功能高级所以难上手建议使用前百度相关指南。
+

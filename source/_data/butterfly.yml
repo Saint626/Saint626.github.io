@@ -359,9 +359,9 @@ footer_custom_text:
 footer_copyright: true
 
 ICP:
-  enable: false
-  url:
-  text:
+  enable: true
+  url: http://www.beian.miit.gov.cn
+  text: 闽ICP备19021396
   icon: /img/icp.png
 
 # Analysis
