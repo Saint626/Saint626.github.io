@@ -4,8 +4,6 @@ date: 2020-06-28 17:39:44
 comments: false
 ---
 
-## 关于博主
-
 ## 简介
 
 在校本科生（2018年入学），专业软件工程，正在努力修炼变强的准程序员。维护这个个人博客主要是为了记录学习上的笔记等等，有时候分享给别人也挺方便的，毕竟授人以鱼不如授人以渔。
@@ -42,7 +40,8 @@ comments: false
 
 - hexo-generator-restful插件。Github地址：https://github.com/yscoder/hexo-generator-restful
 - ColorUI，CSS样式库。GitHub地址：https://github.com/weilanwl/ColorUI
-- wxParse，富文本解析组件。GitHub地址：https://github.com/icindy/wxParse，感觉wxParse体验不是很好，而且作者不维护了，所以后续将改成towxml富文本解析组件。GitHub地址：https://github.com/sbfkcel/towxml
+- wxParse，富文本解析组件。GitHub地址：https://github.com/icindy/wxParse
+  - 感觉wxParse体验不是很好，而且作者不维护了，所以后续将改成towxml富文本解析组件。GitHub地址：https://github.com/sbfkcel/towxml
 - share，小程序分享组件。GitHub地址：https://github.com/MakerGYT/share/
 
 最后附上小程序二维码

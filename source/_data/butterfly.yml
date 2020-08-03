@@ -14,6 +14,8 @@ menu:
   清单||fas fa-list:
     - Music || /music/ || fas fa-music
     - Movie || /movies/ || fas fa-video
+  图库||fas fa-images:
+    - 壁纸 || /wallpaper/ || fas fa-image
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
