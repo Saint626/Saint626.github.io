@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://www.saintblog.top/tags/chrome/</loc>
+    <loc>https://www.saintblog.top/tags/docker/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -165,7 +165,14 @@
   </url>
   
   <url>
-    <loc>https://www.saintblog.top/tags/docker/</loc>
+    <loc>https://www.saintblog.top/tags/chrome/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.saintblog.top/tags/windows/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -207,21 +214,14 @@
   </url>
   
   <url>
-    <loc>https://www.saintblog.top/tags/UML/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.saintblog.top/tags/windows/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.saintblog.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.saintblog.top/tags/UML/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -237,7 +237,7 @@
   </url>
   
   <url>
-    <loc>https://www.saintblog.top/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://www.saintblog.top/categories/docker/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -251,21 +251,7 @@
   </url>
   
   <url>
-    <loc>https://www.saintblog.top/categories/docker/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.saintblog.top/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.saintblog.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://www.saintblog.top/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -279,7 +265,21 @@
   </url>
   
   <url>
+    <loc>https://www.saintblog.top/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.saintblog.top/categories/JAVA/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.saintblog.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
