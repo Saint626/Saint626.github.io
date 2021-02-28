@@ -102,618 +102,666 @@ if (autoChangeMode === '1') {
 .justified-gallery img{
   opacity: 1
 }
-</style></noscript><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><meta name="generator" content="Hexo 4.2.1"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.gif" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">14</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-images"></i><span> 图库</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/wallpaper/"><i class="fa-fw fas fa-image"></i><span> 壁纸</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#常用数学符号"><span class="toc-number">1.</span> <span class="toc-text">常用数学符号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三角函数"><span class="toc-number">2.</span> <span class="toc-text">三角函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对数函数"><span class="toc-number">3.</span> <span class="toc-text">对数函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#关系运算符"><span class="toc-number">4.</span> <span class="toc-text">关系运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#希腊字符"><span class="toc-number">5.</span> <span class="toc-text">希腊字符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#其它符号"><span class="toc-number">6.</span> <span class="toc-text">其它符号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#集合运算符"><span class="toc-number">7.</span> <span class="toc-text">集合运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对数运算符"><span class="toc-number">8.</span> <span class="toc-text">对数运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三角运算符"><span class="toc-number">9.</span> <span class="toc-text">三角运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#微积分运算符"><span class="toc-number">10.</span> <span class="toc-text">微积分运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#逻辑运算符"><span class="toc-number">11.</span> <span class="toc-text">逻辑运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#箭头符号"><span class="toc-number">12.</span> <span class="toc-text">箭头符号</span></a></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://picture.saintblog.top/markdown/markdown_cover.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">coderhls</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-images"></i><span> 图库</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/wallpaper/"><i class="fa-fw fas fa-image"></i><span> 壁纸</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">数学公式</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2021-02-28 12:28:00"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2021-02-28</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2021-02-28 12:28:00"><i class="fas fa-history fa-fw"></i> 更新于 2021-02-28</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/Markdown/">Markdown</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">485</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 2 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h1 id="常用数学符号"><a href="#常用数学符号" class="headerlink" title="常用数学符号"></a>常用数学符号</h1><table>
+</style></noscript><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><meta name="generator" content="Hexo 4.2.1"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.gif" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">14</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-images"></i><span> 图库</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/wallpaper/"><i class="fa-fw fas fa-image"></i><span> 壁纸</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#常用数学符号"><span class="toc-number">1.</span> <span class="toc-text">常用数学符号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三角函数"><span class="toc-number">2.</span> <span class="toc-text">三角函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对数函数"><span class="toc-number">3.</span> <span class="toc-text">对数函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#关系运算符"><span class="toc-number">4.</span> <span class="toc-text">关系运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#希腊字符"><span class="toc-number">5.</span> <span class="toc-text">希腊字符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#其它符号"><span class="toc-number">6.</span> <span class="toc-text">其它符号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#集合运算符"><span class="toc-number">7.</span> <span class="toc-text">集合运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对数运算符"><span class="toc-number">8.</span> <span class="toc-text">对数运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三角运算符"><span class="toc-number">9.</span> <span class="toc-text">三角运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#微积分运算符"><span class="toc-number">10.</span> <span class="toc-text">微积分运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#逻辑运算符"><span class="toc-number">11.</span> <span class="toc-text">逻辑运算符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#箭头符号"><span class="toc-number">12.</span> <span class="toc-text">箭头符号</span></a></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://picture.saintblog.top/markdown/markdown_cover.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">coderhls</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-images"></i><span> 图库</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/wallpaper/"><i class="fa-fw fas fa-image"></i><span> 壁纸</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">数学公式</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2021-02-28 12:28:00"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2021-02-28</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2021-02-28 12:28:00"><i class="fas fa-history fa-fw"></i> 更新于 2021-02-28</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="/categories/Markdown/">Markdown</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">485</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 2 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h1 id="常用数学符号"><a href="#常用数学符号" class="headerlink" title="常用数学符号"></a>常用数学符号</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">标志</th>
-<th align="center">符号</th>
-<th align="center">显示</th>
+<th style="text-align:center">标志</th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center">显示</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">上标</td>
-<td align="center"><code>$x^y$</code></td>
-<td align="center">$x^y$</td>
+<tbody>
+<tr>
+<td style="text-align:center">上标</td>
+<td style="text-align:center"><code>$x^y$</code></td>
+<td style="text-align:center">$ x^y $</td>
 </tr>
 <tr>
-<td align="center">下标</td>
-<td align="center"><code>$x_y$</code></td>
-<td align="center">$x_y$</td>
+<td style="text-align:center">下标</td>
+<td style="text-align:center"><code>$x_y$</code></td>
+<td style="text-align:center">$x_y$</td>
 </tr>
 <tr>
-<td align="center">四周标注</td>
-<td align="center"><code>$\sideset{^1_2}Y{^3_4}Y$</code></td>
-<td align="center">$\sideset{^1_2}Y{^3_4}Y$</td>
+<td style="text-align:center">四周标注</td>
+<td style="text-align:center"><code>$\sideset{^1_2}Y{^3_4}Y$</code></td>
+<td style="text-align:center">$\sideset{^1_2}Y{^3_4}Y$</td>
 </tr>
 <tr>
-<td align="center">分数</td>
-<td align="center"><code>$\frac{1}{x+1}$</code></td>
-<td align="center">$\frac{1}{x+1}$</td>
+<td style="text-align:center">分数</td>
+<td style="text-align:center"><code>$\frac{1}{x+1}$</code></td>
+<td style="text-align:center">$\frac{1}{x+1}$</td>
 </tr>
 <tr>
-<td align="center">开方</td>
-<td align="center"><code>$1\over{x+1}$</code></td>
-<td align="center">$1\over{x+1}$</td>
+<td style="text-align:center">开方</td>
+<td style="text-align:center"><code>$1\over{x+1}$</code></td>
+<td style="text-align:center">$1\over{x+1}$</td>
 </tr>
 <tr>
-<td align="center">开方</td>
-<td align="center"><code>$\sqrt[2]{3}$</code></td>
-<td align="center">$\sqrt[2]{3}$</td>
+<td style="text-align:center">开方</td>
+<td style="text-align:center"><code>$\sqrt[2]{3}$</code></td>
+<td style="text-align:center">$\sqrt[2]{3}$</td>
 </tr>
 <tr>
-<td align="center">省略号(下边)</td>
-<td align="center"><code>$\sqrt{3}$</code></td>
-<td align="center">$\sqrt{3}$</td>
+<td style="text-align:center">省略号(下边)</td>
+<td style="text-align:center"><code>$\sqrt{3}$</code></td>
+<td style="text-align:center">$\sqrt{3}$</td>
 </tr>
 <tr>
-<td align="center">省略号(中间)</td>
-<td align="center"><code>$x_1, x_2, \ldots, x_n$</code></td>
-<td align="center">$x_1, x_2, \ldots, x_n$</td>
+<td style="text-align:center">省略号(中间)</td>
+<td style="text-align:center"><code>$x_1, x_2, \ldots, x_n$</code></td>
+<td style="text-align:center">$x_1, x_2, \ldots, x_n$</td>
 </tr>
 <tr>
-<td align="center">矢量</td>
-<td align="center"><code>$x_1, x_2, \cdots, x_n$</code></td>
-<td align="center">$x_1, x_2, \cdots, x_n$</td>
+<td style="text-align:center">矢量</td>
+<td style="text-align:center"><code>$x_1, x_2, \cdots, x_n$</code></td>
+<td style="text-align:center">$x_1, x_2, \cdots, x_n$</td>
 </tr>
 <tr>
-<td align="center">积分</td>
-<td align="center"><code>$\vec{a}$</code></td>
-<td align="center">$\vec{a}$</td>
+<td style="text-align:center">积分</td>
+<td style="text-align:center"><code>$\vec{a}$</code></td>
+<td style="text-align:center">$\vec{a}$</td>
 </tr>
 <tr>
-<td align="center">极限</td>
-<td align="center"><code>$\int_0^1x{\rm d}x $</code></td>
-<td align="center">$\int_0^1x{\rm d}x $</td>
+<td style="text-align:center">极限</td>
+<td style="text-align:center"><code>$\int_0^1x{\rm d}x $</code></td>
+<td style="text-align:center">$\int_0^1x{\rm d}x $</td>
 </tr>
 <tr>
-<td align="center">累加</td>
-<td align="center"><code>$\lim_{n\rightarrow0}n$</code></td>
-<td align="center">$\lim_{n\rightarrow0}n$</td>
+<td style="text-align:center">累加</td>
+<td style="text-align:center"><code>$\lim_{n\rightarrow0}n$</code></td>
+<td style="text-align:center">$\lim_{n\rightarrow0}n$</td>
 </tr>
 <tr>
-<td align="center">累乘</td>
-<td align="center"><code>$\sum_1^n\frac{1}{x}$</code></td>
-<td align="center">$\sum_1^n\frac{1}{x}$</td>
+<td style="text-align:center">累乘</td>
+<td style="text-align:center"><code>$\sum_1^n\frac{1}{x}$</code></td>
+<td style="text-align:center">$\sum_1^n\frac{1}{x}$</td>
 </tr>
-</tbody></table>
-<h1 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center"><strong>函数</strong></th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center"><strong>函数</strong></th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">sin</td>
-<td align="center"><code>$sin$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">sin</td>
+<td style="text-align:center"><code>$sin$</code></td>
 </tr>
 <tr>
-<td align="center">cos</td>
-<td align="center"><code>$cos$</code></td>
+<td style="text-align:center">cos</td>
+<td style="text-align:center"><code>$cos$</code></td>
 </tr>
 <tr>
-<td align="center">tan</td>
-<td align="center"><code>$tan$</code></td>
+<td style="text-align:center">tan</td>
+<td style="text-align:center"><code>$tan$</code></td>
 </tr>
-</tbody></table>
-<h1 id="对数函数"><a href="#对数函数" class="headerlink" title="对数函数"></a>对数函数</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="对数函数"><a href="#对数函数" class="headerlink" title="对数函数"></a>对数函数</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center"><strong>函数</strong></th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center"><strong>函数</strong></th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\ln15$</td>
-<td align="center"><code>$\ln15$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\ln15$</td>
+<td style="text-align:center"><code>$\ln15$</code></td>
 </tr>
 <tr>
-<td align="center">$\log_2 10$</td>
-<td align="center"><code>$\log_2 10$</code></td>
+<td style="text-align:center">$\log_2 10$</td>
+<td style="text-align:center"><code>$\log_2 10$</code></td>
 </tr>
 <tr>
-<td align="center">$\lg7$</td>
-<td align="center"><code>$\lg7$</code></td>
+<td style="text-align:center">$\lg7$</td>
+<td style="text-align:center"><code>$\lg7$</code></td>
 </tr>
-</tbody></table>
-<h1 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center"><strong>符号</strong></th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center"><strong>符号</strong></th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\pm$</td>
-<td align="center"><code>$\pm$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\pm$</td>
+<td style="text-align:center"><code>$\pm$</code></td>
 </tr>
 <tr>
-<td align="center">$\times$</td>
-<td align="center"><code>$\times$</code></td>
+<td style="text-align:center">$\times$</td>
+<td style="text-align:center"><code>$\times$</code></td>
 </tr>
 <tr>
-<td align="center">$\div$</td>
-<td align="center"><code>$\div$</code></td>
+<td style="text-align:center">$\div$</td>
+<td style="text-align:center"><code>$\div$</code></td>
 </tr>
 <tr>
-<td align="center">$\sum$</td>
-<td align="center"><code>$\sum$</code></td>
+<td style="text-align:center">$\sum$</td>
+<td style="text-align:center"><code>$\sum$</code></td>
 </tr>
 <tr>
-<td align="center">$\prod$</td>
-<td align="center"><code>$\prod$</code></td>
+<td style="text-align:center">$\prod$</td>
+<td style="text-align:center"><code>$\prod$</code></td>
 </tr>
 <tr>
-<td align="center">$\neq$</td>
-<td align="center"><code>$\neq$</code></td>
+<td style="text-align:center">$\neq$</td>
+<td style="text-align:center"><code>$\neq$</code></td>
 </tr>
 <tr>
-<td align="center">$\leq$</td>
-<td align="center"><code>$\leq$</code></td>
+<td style="text-align:center">$\leq$</td>
+<td style="text-align:center"><code>$\leq$</code></td>
 </tr>
 <tr>
-<td align="center">$\geq$</td>
-<td align="center"><code>$\geq$</code></td>
+<td style="text-align:center">$\geq$</td>
+<td style="text-align:center"><code>$\geq$</code></td>
 </tr>
-</tbody></table>
-<h1 id="希腊字符"><a href="#希腊字符" class="headerlink" title="希腊字符"></a>希腊字符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="希腊字符"><a href="#希腊字符" class="headerlink" title="希腊字符"></a>希腊字符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center"><strong>标志</strong></th>
-<th align="center"><strong>符号</strong></th>
-<th align="center"><strong>标志</strong></th>
-<th align="center"><strong>符号</strong></th>
+<th style="text-align:center"><strong>标志</strong></th>
+<th style="text-align:center"><strong>符号</strong></th>
+<th style="text-align:center"><strong>标志</strong></th>
+<th style="text-align:center"><strong>符号</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\alpha$</td>
-<td align="center"><code>$\alpha$</code></td>
-<td align="center">$\beta$</td>
-<td align="center"><code>$\beta$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\alpha$</td>
+<td style="text-align:center"><code>$\alpha$</code></td>
+<td style="text-align:center">$\beta$</td>
+<td style="text-align:center"><code>$\beta$</code></td>
 </tr>
 <tr>
-<td align="center">$\gamma$</td>
-<td align="center"><code>$\gamma$</code></td>
-<td align="center">$\Gamma$</td>
-<td align="center"><code>$\Gamma$</code></td>
+<td style="text-align:center">$\gamma$</td>
+<td style="text-align:center"><code>$\gamma$</code></td>
+<td style="text-align:center">$\Gamma$</td>
+<td style="text-align:center"><code>$\Gamma$</code></td>
 </tr>
 <tr>
-<td align="center">$\delta$</td>
-<td align="center"><code>$\delta$</code></td>
-<td align="center">$\epsilon$</td>
-<td align="center"><code>$\epsilon$</code></td>
+<td style="text-align:center">$\delta$</td>
+<td style="text-align:center"><code>$\delta$</code></td>
+<td style="text-align:center">$\epsilon$</td>
+<td style="text-align:center"><code>$\epsilon$</code></td>
 </tr>
 <tr>
-<td align="center">$\varepsilon$</td>
-<td align="center"><code>$\varepsilon$</code></td>
-<td align="center">$\zeta$</td>
-<td align="center"><code>$\zeta$</code></td>
+<td style="text-align:center">$\varepsilon$</td>
+<td style="text-align:center"><code>$\varepsilon$</code></td>
+<td style="text-align:center">$\zeta$</td>
+<td style="text-align:center"><code>$\zeta$</code></td>
 </tr>
 <tr>
-<td align="center">$\eta$</td>
-<td align="center"><code>$\eta$</code></td>
-<td align="center">$\theta$</td>
-<td align="center"><code>$\theta$</code></td>
+<td style="text-align:center">$\eta$</td>
+<td style="text-align:center"><code>$\eta$</code></td>
+<td style="text-align:center">$\theta$</td>
+<td style="text-align:center"><code>$\theta$</code></td>
 </tr>
 <tr>
-<td align="center">$\Theta$</td>
-<td align="center"><code>$\Theta$</code></td>
-<td align="center">$\vartheta$</td>
-<td align="center"><code>$\vartheta$</code></td>
+<td style="text-align:center">$\Theta$</td>
+<td style="text-align:center"><code>$\Theta$</code></td>
+<td style="text-align:center">$\vartheta$</td>
+<td style="text-align:center"><code>$\vartheta$</code></td>
 </tr>
 <tr>
-<td align="center">$\iota$</td>
-<td align="center"><code>$\iota$</code></td>
-<td align="center">$\kappa$</td>
-<td align="center"><code>$\kappa$</code></td>
+<td style="text-align:center">$\iota$</td>
+<td style="text-align:center"><code>$\iota$</code></td>
+<td style="text-align:center">$\kappa$</td>
+<td style="text-align:center"><code>$\kappa$</code></td>
 </tr>
 <tr>
-<td align="center">$\lambda$</td>
-<td align="center"><code>$\lambda$</code></td>
-<td align="center">$\Lambda$</td>
-<td align="center"><code>$\Lambda$</code></td>
+<td style="text-align:center">$\lambda$</td>
+<td style="text-align:center"><code>$\lambda$</code></td>
+<td style="text-align:center">$\Lambda$</td>
+<td style="text-align:center"><code>$\Lambda$</code></td>
 </tr>
 <tr>
-<td align="center">$\mu$</td>
-<td align="center"><code>$\mu$</code></td>
-<td align="center">$\xi$</td>
-<td align="center"><code>$\xi$</code></td>
+<td style="text-align:center">$\mu$</td>
+<td style="text-align:center"><code>$\mu$</code></td>
+<td style="text-align:center">$\xi$</td>
+<td style="text-align:center"><code>$\xi$</code></td>
 </tr>
 <tr>
-<td align="center">$\Xi$</td>
-<td align="center"><code>$\Xi$</code></td>
-<td align="center">$\pi$</td>
-<td align="center"><code>$\pi$</code></td>
+<td style="text-align:center">$\Xi$</td>
+<td style="text-align:center"><code>$\Xi$</code></td>
+<td style="text-align:center">$\pi$</td>
+<td style="text-align:center"><code>$\pi$</code></td>
 </tr>
 <tr>
-<td align="center">$\varpi$</td>
-<td align="center"><code>$\varpi$</code></td>
-<td align="center">$\rho$</td>
-<td align="center"><code>$\rho$</code></td>
+<td style="text-align:center">$\varpi$</td>
+<td style="text-align:center"><code>$\varpi$</code></td>
+<td style="text-align:center">$\rho$</td>
+<td style="text-align:center"><code>$\rho$</code></td>
 </tr>
 <tr>
-<td align="center">$\sigma$</td>
-<td align="center"><code>$\sigma$</code></td>
-<td align="center">$\Sigma$</td>
-<td align="center"><code>$\Sigma$</code></td>
+<td style="text-align:center">$\sigma$</td>
+<td style="text-align:center"><code>$\sigma$</code></td>
+<td style="text-align:center">$\Sigma$</td>
+<td style="text-align:center"><code>$\Sigma$</code></td>
 </tr>
 <tr>
-<td align="center">$\varsigma$</td>
-<td align="center"><code>$\varsigma$</code></td>
-<td align="center">$\tau$</td>
-<td align="center"><code>$\tau$</code></td>
+<td style="text-align:center">$\varsigma$</td>
+<td style="text-align:center"><code>$\varsigma$</code></td>
+<td style="text-align:center">$\tau$</td>
+<td style="text-align:center"><code>$\tau$</code></td>
 </tr>
 <tr>
-<td align="center">$\upsilon$</td>
-<td align="center"><code>$\upsilon$</code></td>
-<td align="center">$\Upsilon$</td>
-<td align="center"><code>$\Upsilon$</code></td>
+<td style="text-align:center">$\upsilon$</td>
+<td style="text-align:center"><code>$\upsilon$</code></td>
+<td style="text-align:center">$\Upsilon$</td>
+<td style="text-align:center"><code>$\Upsilon$</code></td>
 </tr>
 <tr>
-<td align="center">$\phi$</td>
-<td align="center"><code>$\phi$</code></td>
-<td align="center">$\Phi$</td>
-<td align="center"><code>$\Phi$</code></td>
+<td style="text-align:center">$\phi$</td>
+<td style="text-align:center"><code>$\phi$</code></td>
+<td style="text-align:center">$\Phi$</td>
+<td style="text-align:center"><code>$\Phi$</code></td>
 </tr>
 <tr>
-<td align="center">$\varphi$</td>
-<td align="center"><code>$\varphi$</code></td>
-<td align="center">$\chi$</td>
-<td align="center"><code>$\chi$</code></td>
+<td style="text-align:center">$\varphi$</td>
+<td style="text-align:center"><code>$\varphi$</code></td>
+<td style="text-align:center">$\chi$</td>
+<td style="text-align:center"><code>$\chi$</code></td>
 </tr>
 <tr>
-<td align="center">$\psi$</td>
-<td align="center"><code>$\psi$</code></td>
-<td align="center">$\Psi$</td>
-<td align="center"><code>$\Psi$</code></td>
+<td style="text-align:center">$\psi$</td>
+<td style="text-align:center"><code>$\psi$</code></td>
+<td style="text-align:center">$\Psi$</td>
+<td style="text-align:center"><code>$\Psi$</code></td>
 </tr>
 <tr>
-<td align="center">$\omega$</td>
-<td align="center"><code>$\omega$</code></td>
-<td align="center">$\Omega$</td>
-<td align="center"><code>$\Omega$</code></td>
+<td style="text-align:center">$\omega$</td>
+<td style="text-align:center"><code>$\omega$</code></td>
+<td style="text-align:center">$\Omega$</td>
+<td style="text-align:center"><code>$\Omega$</code></td>
 </tr>
-</tbody></table>
-<h1 id="其它符号"><a href="#其它符号" class="headerlink" title="其它符号"></a>其它符号</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="其它符号"><a href="#其它符号" class="headerlink" title="其它符号"></a>其它符号</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\pm$</td>
-<td align="center"><code>$\pm$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\pm$</td>
+<td style="text-align:center"><code>$\pm$</code></td>
 </tr>
 <tr>
-<td align="center">$\times$</td>
-<td align="center"><code>$\times$</code></td>
+<td style="text-align:center">$\times$</td>
+<td style="text-align:center"><code>$\times$</code></td>
 </tr>
 <tr>
-<td align="center">$\div$</td>
-<td align="center"><code>$\div$</code></td>
+<td style="text-align:center">$\div$</td>
+<td style="text-align:center"><code>$\div$</code></td>
 </tr>
 <tr>
-<td align="center">$\mid$</td>
-<td align="center"><code>$\mid$</code></td>
+<td style="text-align:center">$\mid$</td>
+<td style="text-align:center"><code>$\mid$</code></td>
 </tr>
 <tr>
-<td align="center">$\cdot$</td>
-<td align="center"><code>$\cdot$</code></td>
+<td style="text-align:center">$\cdot$</td>
+<td style="text-align:center"><code>$\cdot$</code></td>
 </tr>
 <tr>
-<td align="center">$\circ$</td>
-<td align="center"><code>$\circ$</code></td>
+<td style="text-align:center">$\circ$</td>
+<td style="text-align:center"><code>$\circ$</code></td>
 </tr>
 <tr>
-<td align="center">$\ast$</td>
-<td align="center"><code>$\ast$</code></td>
+<td style="text-align:center">$\ast$</td>
+<td style="text-align:center"><code>$\ast$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigodot$</td>
-<td align="center"><code>$\bigodot$</code></td>
+<td style="text-align:center">$\bigodot$</td>
+<td style="text-align:center"><code>$\bigodot$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigotimes$</td>
-<td align="center"><code>$\bigotimes$</code></td>
+<td style="text-align:center">$\bigotimes$</td>
+<td style="text-align:center"><code>$\bigotimes$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigoplus$</td>
-<td align="center"><code>$\bigoplus$</code></td>
+<td style="text-align:center">$\bigoplus$</td>
+<td style="text-align:center"><code>$\bigoplus$</code></td>
 </tr>
 <tr>
-<td align="center">$\leq$</td>
-<td align="center"><code>$\leq$</code></td>
+<td style="text-align:center">$\leq$</td>
+<td style="text-align:center"><code>$\leq$</code></td>
 </tr>
 <tr>
-<td align="center">$\geq$</td>
-<td align="center"><code>$\geq$</code></td>
+<td style="text-align:center">$\geq$</td>
+<td style="text-align:center"><code>$\geq$</code></td>
 </tr>
 <tr>
-<td align="center">$\neq$</td>
-<td align="center"><code>$\neq$</code></td>
+<td style="text-align:center">$\neq$</td>
+<td style="text-align:center"><code>$\neq$</code></td>
 </tr>
 <tr>
-<td align="center">$\approx$</td>
-<td align="center"><code>$\approx$</code></td>
+<td style="text-align:center">$\approx$</td>
+<td style="text-align:center"><code>$\approx$</code></td>
 </tr>
 <tr>
-<td align="center">$\equiv$</td>
-<td align="center"><code>$\equiv$</code></td>
+<td style="text-align:center">$\equiv$</td>
+<td style="text-align:center"><code>$\equiv$</code></td>
 </tr>
 <tr>
-<td align="center">$\sum$</td>
-<td align="center"><code>$\sum$</code></td>
+<td style="text-align:center">$\sum$</td>
+<td style="text-align:center"><code>$\sum$</code></td>
 </tr>
 <tr>
-<td align="center">$\prod$</td>
-<td align="center"><code>$\prod$</code></td>
+<td style="text-align:center">$\prod$</td>
+<td style="text-align:center"><code>$\prod$</code></td>
 </tr>
 <tr>
-<td align="center">$\coprod$</td>
-<td align="center"><code>$\coprod$</code></td>
+<td style="text-align:center">$\coprod$</td>
+<td style="text-align:center"><code>$\coprod$</code></td>
 </tr>
-</tbody></table>
-<h1 id="集合运算符"><a href="#集合运算符" class="headerlink" title="集合运算符"></a>集合运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="集合运算符"><a href="#集合运算符" class="headerlink" title="集合运算符"></a>集合运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\emptyset$</td>
-<td align="center"><code>$\emptyset$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\emptyset$</td>
+<td style="text-align:center"><code>$\emptyset$</code></td>
 </tr>
 <tr>
-<td align="center">$\in$</td>
-<td align="center"><code>$\in$</code></td>
+<td style="text-align:center">$\in$</td>
+<td style="text-align:center"><code>$\in$</code></td>
 </tr>
 <tr>
-<td align="center">$\notin$</td>
-<td align="center"><code>$\notin$</code></td>
+<td style="text-align:center">$\notin$</td>
+<td style="text-align:center"><code>$\notin$</code></td>
 </tr>
 <tr>
-<td align="center">$\subset$</td>
-<td align="center"><code>$\subset$</code></td>
+<td style="text-align:center">$\subset$</td>
+<td style="text-align:center"><code>$\subset$</code></td>
 </tr>
 <tr>
-<td align="center">$\supset$</td>
-<td align="center"><code>$\supset$</code></td>
+<td style="text-align:center">$\supset$</td>
+<td style="text-align:center"><code>$\supset$</code></td>
 </tr>
 <tr>
-<td align="center">$\subseteq$</td>
-<td align="center"><code>$\subseteq$</code></td>
+<td style="text-align:center">$\subseteq$</td>
+<td style="text-align:center"><code>$\subseteq$</code></td>
 </tr>
 <tr>
-<td align="center">$\supseteq$</td>
-<td align="center"><code>$\supseteq$</code></td>
+<td style="text-align:center">$\supseteq$</td>
+<td style="text-align:center"><code>$\supseteq$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigcap$</td>
-<td align="center"><code>$\bigcap$</code></td>
+<td style="text-align:center">$\bigcap$</td>
+<td style="text-align:center"><code>$\bigcap$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigcup$</td>
-<td align="center"><code>$\bigcup$</code></td>
+<td style="text-align:center">$\bigcup$</td>
+<td style="text-align:center"><code>$\bigcup$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigvee$</td>
-<td align="center"><code>$\bigvee$</code></td>
+<td style="text-align:center">$\bigvee$</td>
+<td style="text-align:center"><code>$\bigvee$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigwedge$</td>
-<td align="center"><code>$\bigwedge$</code></td>
+<td style="text-align:center">$\bigwedge$</td>
+<td style="text-align:center"><code>$\bigwedge$</code></td>
 </tr>
 <tr>
-<td align="center">$\biguplus$</td>
-<td align="center"><code>$\biguplus$</code></td>
+<td style="text-align:center">$\biguplus$</td>
+<td style="text-align:center"><code>$\biguplus$</code></td>
 </tr>
 <tr>
-<td align="center">$\bigsqcup$</td>
-<td align="center"><code>$\bigsqcup$</code></td>
+<td style="text-align:center">$\bigsqcup$</td>
+<td style="text-align:center"><code>$\bigsqcup$</code></td>
 </tr>
-</tbody></table>
-<h1 id="对数运算符"><a href="#对数运算符" class="headerlink" title="对数运算符"></a>对数运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="对数运算符"><a href="#对数运算符" class="headerlink" title="对数运算符"></a>对数运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\log$</td>
-<td align="center"><code>$\log$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\log$</td>
+<td style="text-align:center"><code>$\log$</code></td>
 </tr>
 <tr>
-<td align="center">$\lg$</td>
-<td align="center"><code>$\lg$</code></td>
+<td style="text-align:center">$\lg$</td>
+<td style="text-align:center"><code>$\lg$</code></td>
 </tr>
 <tr>
-<td align="center">$\ln$</td>
-<td align="center"><code>$\ln$</code></td>
+<td style="text-align:center">$\ln$</td>
+<td style="text-align:center"><code>$\ln$</code></td>
 </tr>
-</tbody></table>
-<h1 id="三角运算符"><a href="#三角运算符" class="headerlink" title="三角运算符"></a>三角运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="三角运算符"><a href="#三角运算符" class="headerlink" title="三角运算符"></a>三角运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\bot$</td>
-<td align="center"><code>$\bot$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\bot$</td>
+<td style="text-align:center"><code>$\bot$</code></td>
 </tr>
 <tr>
-<td align="center">$\angle$</td>
-<td align="center"><code>$\angle$</code></td>
+<td style="text-align:center">$\angle$</td>
+<td style="text-align:center"><code>$\angle$</code></td>
 </tr>
 <tr>
-<td align="center">$30^\circ$</td>
-<td align="center"><code>$30^\circ$</code></td>
+<td style="text-align:center">$30^\circ$</td>
+<td style="text-align:center"><code>$30^\circ$</code></td>
 </tr>
 <tr>
-<td align="center">$\sin$</td>
-<td align="center"><code>$\sin$</code></td>
+<td style="text-align:center">$\sin$</td>
+<td style="text-align:center"><code>$\sin$</code></td>
 </tr>
 <tr>
-<td align="center">$\cos$</td>
-<td align="center"><code>$\cos$</code></td>
+<td style="text-align:center">$\cos$</td>
+<td style="text-align:center"><code>$\cos$</code></td>
 </tr>
 <tr>
-<td align="center">$\tan$</td>
-<td align="center"><code>$\tan$</code></td>
+<td style="text-align:center">$\tan$</td>
+<td style="text-align:center"><code>$\tan$</code></td>
 </tr>
 <tr>
-<td align="center">$\cot$</td>
-<td align="center"><code>$\cot$</code></td>
+<td style="text-align:center">$\cot$</td>
+<td style="text-align:center"><code>$\cot$</code></td>
 </tr>
 <tr>
-<td align="center">$\sec$</td>
-<td align="center"><code>$\sec$</code></td>
+<td style="text-align:center">$\sec$</td>
+<td style="text-align:center"><code>$\sec$</code></td>
 </tr>
 <tr>
-<td align="center">$\csc$</td>
-<td align="center"><code>$\csc$</code></td>
+<td style="text-align:center">$\csc$</td>
+<td style="text-align:center"><code>$\csc$</code></td>
 </tr>
-</tbody></table>
-<h1 id="微积分运算符"><a href="#微积分运算符" class="headerlink" title="微积分运算符"></a>微积分运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="微积分运算符"><a href="#微积分运算符" class="headerlink" title="微积分运算符"></a>微积分运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\prime$</td>
-<td align="center"><code>$\prime$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\prime$</td>
+<td style="text-align:center"><code>$\prime$</code></td>
 </tr>
 <tr>
-<td align="center">$\int$</td>
-<td align="center"><code>$\int$</code></td>
+<td style="text-align:center">$\int$</td>
+<td style="text-align:center"><code>$\int$</code></td>
 </tr>
 <tr>
-<td align="center">$\iint$</td>
-<td align="center"><code>$\iint$</code></td>
+<td style="text-align:center">$\iint$</td>
+<td style="text-align:center"><code>$\iint$</code></td>
 </tr>
 <tr>
-<td align="center">$\iiint$</td>
-<td align="center"><code>$\iiint$</code></td>
+<td style="text-align:center">$\iiint$</td>
+<td style="text-align:center"><code>$\iiint$</code></td>
 </tr>
 <tr>
-<td align="center">$\iiiint$</td>
-<td align="center"><code>$\iiiint$</code></td>
+<td style="text-align:center">$\iiiint$</td>
+<td style="text-align:center"><code>$\iiiint$</code></td>
 </tr>
 <tr>
-<td align="center">$\oint$</td>
-<td align="center"><code>$\oint$</code></td>
+<td style="text-align:center">$\oint$</td>
+<td style="text-align:center"><code>$\oint$</code></td>
 </tr>
 <tr>
-<td align="center">$\lim$</td>
-<td align="center"><code>$\lim$</code></td>
+<td style="text-align:center">$\lim$</td>
+<td style="text-align:center"><code>$\lim$</code></td>
 </tr>
 <tr>
-<td align="center">$\infty$</td>
-<td align="center"><code>$\infty$</code></td>
+<td style="text-align:center">$\infty$</td>
+<td style="text-align:center"><code>$\infty$</code></td>
 </tr>
 <tr>
-<td align="center">$\nabla$</td>
-<td align="center"><code>$\nabla$</code></td>
+<td style="text-align:center">$\nabla$</td>
+<td style="text-align:center"><code>$\nabla$</code></td>
 </tr>
-</tbody></table>
-<h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\because$</td>
-<td align="center"><code>$\because$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\because$</td>
+<td style="text-align:center"><code>$\because$</code></td>
 </tr>
 <tr>
-<td align="center">$\therefore$</td>
-<td align="center"><code>$\therefore$</code></td>
+<td style="text-align:center">$\therefore$</td>
+<td style="text-align:center"><code>$\therefore$</code></td>
 </tr>
 <tr>
-<td align="center">$\forall$</td>
-<td align="center"><code>$\forall$</code></td>
+<td style="text-align:center">$\forall$</td>
+<td style="text-align:center"><code>$\forall$</code></td>
 </tr>
 <tr>
-<td align="center">$\exists$</td>
-<td align="center"><code>$\exists$</code></td>
+<td style="text-align:center">$\exists$</td>
+<td style="text-align:center"><code>$\exists$</code></td>
 </tr>
 <tr>
-<td align="center">$\not=$</td>
-<td align="center"><code>$\not=$</code></td>
+<td style="text-align:center">$\not=$</td>
+<td style="text-align:center"><code>$\not=$</code></td>
 </tr>
 <tr>
-<td align="center">$\not&gt;$</td>
-<td align="center"><code>$\not&gt;$</code></td>
+<td style="text-align:center">$\not&gt;$</td>
+<td style="text-align:center"><code>$\not&gt;$</code></td>
 </tr>
 <tr>
-<td align="center">$\not\subset$</td>
-<td align="center"><code>$\not\subset$</code></td>
+<td style="text-align:center">$\not\subset$</td>
+<td style="text-align:center"><code>$\not\subset$</code></td>
 </tr>
-</tbody></table>
-<h1 id="箭头符号"><a href="#箭头符号" class="headerlink" title="箭头符号"></a>箭头符号</h1><table>
+</tbody>
+</table>
+</div>
+<h1 id="箭头符号"><a href="#箭头符号" class="headerlink" title="箭头符号"></a>箭头符号</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="center">符号</th>
-<th align="center"><strong>表示</strong></th>
+<th style="text-align:center">符号</th>
+<th style="text-align:center"><strong>表示</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">$\uparrow$</td>
-<td align="center"><code>$\uparrow$</code></td>
+<tbody>
+<tr>
+<td style="text-align:center">$\uparrow$</td>
+<td style="text-align:center"><code>$\uparrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\downarrow$</td>
-<td align="center"><code>$\downarrow$</code></td>
+<td style="text-align:center">$\downarrow$</td>
+<td style="text-align:center"><code>$\downarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Uparrow$</td>
-<td align="center"><code>$\Uparrow$</code></td>
+<td style="text-align:center">$\Uparrow$</td>
+<td style="text-align:center"><code>$\Uparrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Downarrow$</td>
-<td align="center"><code>$\Downarrow$</code></td>
+<td style="text-align:center">$\Downarrow$</td>
+<td style="text-align:center"><code>$\Downarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\rightarrow$</td>
-<td align="center"><code>$\rightarrow$</code></td>
+<td style="text-align:center">$\rightarrow$</td>
+<td style="text-align:center"><code>$\rightarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\leftarrow$</td>
-<td align="center"><code>$\leftarrow$</code></td>
+<td style="text-align:center">$\leftarrow$</td>
+<td style="text-align:center"><code>$\leftarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Rightarrow$</td>
-<td align="center"><code>$\Rightarrow$</code></td>
+<td style="text-align:center">$\Rightarrow$</td>
+<td style="text-align:center"><code>$\Rightarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Leftarrow$</td>
-<td align="center"><code>$\Leftarrow$</code></td>
+<td style="text-align:center">$\Leftarrow$</td>
+<td style="text-align:center"><code>$\Leftarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\longrightarrow$</td>
-<td align="center"><code>$\longrightarrow$</code></td>
+<td style="text-align:center">$\longrightarrow$</td>
+<td style="text-align:center"><code>$\longrightarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\longleftarrow$</td>
-<td align="center"><code>$\longleftarrow$</code></td>
+<td style="text-align:center">$\longleftarrow$</td>
+<td style="text-align:center"><code>$\longleftarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Longrightarrow$</td>
-<td align="center"><code>$\Longrightarrow$</code></td>
+<td style="text-align:center">$\Longrightarrow$</td>
+<td style="text-align:center"><code>$\Longrightarrow$</code></td>
 </tr>
 <tr>
-<td align="center">$\Longleftarrow$</td>
-<td align="center"><code>$\Longleftarrow$</code></td>
+<td style="text-align:center">$\Longleftarrow$</td>
+<td style="text-align:center"><code>$\Longleftarrow$</code></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 </div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">coderhls</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.saintblog.top/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">https://www.saintblog.top/2021/02/28/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.saintblog.top" target="_blank">coderhls</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Markdown/">Markdown</a></div><div class="post_share"><div class="addthis_inline_share_toolbox"></div><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ef877178fd8c7c7" async="async"></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/02/26/Manjaro%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE%E5%92%8C%E8%BD%AF%E4%BB%B6/"><img class="next-cover" data-src="https://picture.saintblog.top/Linux/manjaro/manjaro_cover.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Manjaro常用配置和软件</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
   var from = from
   var setting = set.split(',').filter(function(item){
